@@ -8,7 +8,7 @@ endif
 " plugins
 call plug#begin('~/.vim/plugged')
 
-Plug 'morhetz/gruvbox'
+Plug 'artanikin/vim-synthwave84'
 Plug 'pangloss/vim-javascript'
 Plug 'vim-airline/vim-airline'
 
@@ -16,7 +16,7 @@ call plug#end()
 
 " theme
 set termguicolors
-colorscheme gruvbox
+colorscheme synthwave84
 
 " editor
 set expandtab
