@@ -15,6 +15,7 @@ if [[ "$(uname -s)" == "Darwin" ]]; then
   export ZPLUG_HOME=$(brew --prefix)/opt/zplug
   alias up="brew update & brew upgrade"
 elif [[ "$(uname -s)" == "Linux" ]]; then
+  export ZPLUG_HOME=~/.zplug
   alias up="sudo apt update && sudo apt upgrade && sudo apt dist-upgrade && sudo apt autoremove"
 fi
 
